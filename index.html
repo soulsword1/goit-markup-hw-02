@@ -3,34 +3,41 @@
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="Про нашу компанію WebStudio" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
     <title>WebStudio</title>
   </head>
   <body>
     <!-- Шапка сторінки -->
-    <header id="nav">
+    <header class="nav">
       <!-- Навігація -->
       <nav>
-        <a href="webstudio.com">WebStudio</a>
+        <a href="./index.html" class="logo"><span>Web</span>Studio</a>
         <ul>
-          <li><a href="/studio">Студія</a></li>
-          <li><a href="/portfolio">Портфоліо</a></li>
+          <li><a href="./index.html">Студія</a></li>
+          <li><a href="./portfolio.html">Портфоліо</a></li>
           <li><a href="/contacts">Контакти</a></li>
         </ul>
       </nav>
 
-      <ul>
+      <ul class="contacts">
         <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
       </ul>
     </header>
     <!-- Основна частина сторінки -->
     <main>
-      <section id="title">
+      <section class="title">
         <h1>Ефективні рішення для вашого бізнесу</h1>
-        <button type="button">Замовити послугу</button>
+        <button type="button" class="title-button">Замовити послугу</button>
       </section>
 
-      <section id="about">
+      <section class="about">
         <h2>Наші особливості</h2>
         <ul>
           <li>
@@ -63,7 +70,7 @@
         </ul>
       </section>
 
-      <section id="competence">
+      <section class="competence">
         <h2>Чим ми займаємося</h2>
         <ul>
           <li>
@@ -94,7 +101,7 @@
         </ul>
       </section>
 
-      <section id="staff">
+      <section class="staff">
         <h2>Наша команда</h2>
         <ul>
           <li>
@@ -141,11 +148,11 @@
       </section>
     </main>
 
-    <footer>
-      <a href="webstudio.com">WebStudio</a>
+    <footer class="contact-information">
+      <a href="./index.html" class="logo"><span>Web</span>Studio</a>
       <address>
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
-        <ul>
+        <p class="address">м. Київ, пр-т Лесі Українки, 26</p>
+        <ul class="contacts">
           <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
           <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         </ul>

@@ -1,0 +1,145 @@
+:root {
+  --body-color: #212121;
+  --sub-color: #757575;
+  --hover-color: #2196f3;
+  --portfolio-button: #f5f4fa;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--body-color);
+}
+
+li {
+  list-style: none;
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: var(--body-color);
+}
+
+.logo {
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.logo span {
+  color: var(--hover-color);
+}
+
+.logo:hover {
+  color: var(--body-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--body-color);
+}
+
+.contacts a,
+p {
+  color: var(--sub-color);
+}
+
+a:hover,
+a:focus {
+  color: var(--hover-color);
+}
+
+nav,
+.staff h3,
+.portfolio-buttons button {
+  font-weight: 500;
+}
+
+nav,
+.about h3 {
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.about p,
+footer {
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.competence h2,
+.staff h2,
+.about h2 {
+  font-size: 36px;
+  line-height: 1.17;
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 1.36;
+}
+
+.title-button {
+  background: var(--hover-color);
+  color: #fff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.title h1 {
+  font-weight: 900;
+}
+
+.title-button,
+.menu h3 {
+  font-weight: 700;
+}
+
+.title-button,
+.menu p {
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.menu h3 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.staff h3,
+.staff p {
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+.portfolio-buttons button {
+  background: var(--portfolio-button);
+  color: var(--body-color);
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:hover,
+button:focus {
+  background: var(--hover-color);
+  color: #fff;
+}
+
+.contact-information .address {
+  color: var(--body-color);
+}
+
+.staff li {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.menu li {
+  border: 1px solid #eeeeee;
+}
