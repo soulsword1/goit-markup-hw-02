@@ -34,8 +34,8 @@ body {
 
 .nav .link:hover,
 .nav .link:focus,
-.nav .contacts-link:hover,
-.nav .contacts-link:focus {
+.contacts-link:hover,
+.contacts-link:focus {
   color: var(--active-color);
 }
 
@@ -169,7 +169,8 @@ footer .logo-link {
   color: var(--sub-color);
 }
 
-.portfolio button:hover {
+.portfolio button:hover,
+.portfolio button:focus{
   color: var(--white-color);
   background-color: var(--active-color);
 }
