@@ -9,12 +9,11 @@
 }
 
 body {
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont,
-  "Segoe UI", "Oxygen",
-  "Ubuntu", "Cantarell", "Fira Sans",
-  "Droid Sans", "Helvetica Neue", sans-serif; 
+  font-family: "Roboto", sans-serif; 
   color: var(--body-color);
   background-color: var(--body-background);
+  font-size: 14px;
+  letter-spacing: 0.03em;
 }
 
 /* Навігація */
@@ -42,9 +41,7 @@ body {
 }
 
 .nav .link {
-  font-family: "Roboto";
   font-weight: 500;
-  font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -52,7 +49,7 @@ body {
 .nav .contacts-link {
   color: inherit;
   font-weight: 500;
-  font-size: 14px;
+  
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
@@ -72,6 +69,10 @@ body {
 .logo-link,
 .title {
   color: var(--sub-color);
+}
+
+.link.current{
+  color: var(--active-color);
 }
 
 .button{
@@ -94,6 +95,7 @@ footer {
 }
 
 .hero-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -105,16 +107,12 @@ footer {
 
 .about h3 {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .about p {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
 }
 
 .competence .main-title,
@@ -122,7 +120,6 @@ footer {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
-  letter-spacing: 0.03em;
 }
 
 .staff {
@@ -133,7 +130,6 @@ footer {
 .staff p {
   font-size: 16px;
   line-height: 1.19;
-  letter-spacing: 0.03em;
 }
 
 .staff h3 {
@@ -143,10 +139,10 @@ footer {
 /* Футер */
 
 footer .contacts-link {
+  font-style: normal;
+  line-height: 1.7;
   color: var(--white-color);
   opacity: 0.6;
-  font-size: 14px;
-  line-height: 1.7;
 }
 
 footer .logo-link {
@@ -154,19 +150,18 @@ footer .logo-link {
 }
 
 .address {
-  font-size: 14px;
+  font-style: normal;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--white-color);
 }
 
 /* Портфоліо */
 
 .portfolio button {
+  font-family: inherit;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  letter-spacing: 0.03em;
   background-color: var(--sub-second-color);
   color: var(--sub-color);
 }
@@ -188,5 +183,4 @@ footer .logo-link {
   color: var(--body-color);
   font-size: 16px;
   line-height: 1.88;
-  letter-spacing: 0.03em;
 }
